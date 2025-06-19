@@ -1,4 +1,4 @@
 streamlit
 openai
 pandas
-docx
+python-docx
