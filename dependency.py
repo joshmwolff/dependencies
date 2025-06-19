@@ -265,5 +265,5 @@ Close collaboration will be maintained with data owners at participating agencie
     #    pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="100%" height="700px" type="application/pdf"></iframe>'
     #    st.markdown(pdf_display, unsafe_allow_html=True)
 
-    except FileNotFoundError:
-        st.error("Demo PDF not found. Please ensure the file is in the correct location.")
+    #except FileNotFoundError:
+    #    st.error("Demo PDF not found. Please ensure the file is in the correct location.")
