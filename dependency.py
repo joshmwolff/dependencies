@@ -206,13 +206,13 @@ with tab1:
             st.error("No project plan text was provided.")
             
 with tab2:
-    st.subheader("Example Project Plan – Climate Data Lake Project (PDF)")
+    st.subheader("Example (fake) Project Plan – Climate Data Lake Project")
     st.markdown("""
         # Climate Data Lake Project
 
 ## Overview and Goals
 
-The Massachusetts Data Office (MDO), a division of EOTSS, is launching a new project to create a Commonwealth Climate Data Lake in partnership with multiple agencies across the state.
+This project will create a Commonwealth Climate Data Lake in partnership with multiple agencies across the state.
 
 The Climate Data Lake seeks to:
 
@@ -234,7 +234,7 @@ The project is complete when the following deliverables have been accepted by EO
 
 ## Approach
 
-The MDO Project Manager will provide weekly status updates to key stakeholders via email.
+The Project Manager will provide weekly status updates to key stakeholders via email.
 
 Work will be organized into biweekly sprints, following Agile delivery practices.
 
@@ -246,7 +246,7 @@ Close collaboration will be maintained with data owners at participating agencie
 
 | Milestone # | Description                                           | Proposed Date |
 |-------------|-------------------------------------------------------|----------------|
-| 1           | Project approval – MDO receives go-ahead from EOTSS leadership and initial participating agencies | Week of 6/17   |
+| 1           | Project approval – Project team receives go-ahead from EOTSS leadership and initial participating agencies | Week of 6/17   |
 | 2           | Project kickoff – Kickoff meeting with stakeholders to align goals, approach, and team roles | Week of 6/24   |
 | 3           | Initial agency datasets identified – Agencies deliver metadata and sample files for prioritized climate datasets | Week of 7/1    |
 | 4           | Data classification and standards finalized – MDO and agencies align on data domains, tags, privacy tiers, and publishing guidelines | Week of 7/8    |
