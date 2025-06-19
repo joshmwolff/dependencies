@@ -9,7 +9,7 @@ import streamlit as st
 import openai
 import pandas as pd
 import time
-import python-docx
+import docx
 import base64
 
 
