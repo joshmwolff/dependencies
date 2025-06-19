@@ -1,0 +1,105 @@
+
+
+**Executive Office of Technology Services and Security (EOTSS) Ð Summary of Major Offices and Responsibilities**
+
+
+**1. Fiscal and Administrative Services (Chief Administrative Officer)**
+Supports operations across EOTSS and agencies via:
+
+* **Contract & Software Licensing**: Centralized negotiation of IT contracts reduces cost and risk.
+* **Finance & Capital Planning**: Oversees EOTSS budget and IT investment portfolio, including project funding via an IT Investment Advisory Board.
+* **HR Services**: Runs enterprise IT recruitment and workforce management.
+* **Procurement**: Centralizes IT purchasing to ensure compliance and cost-efficiency.
+
+**Governance Role**: Oversees procurement compliance and project funding approvals. Collaborates with application teams to ensure fiscal readiness and licensing.
+
+---
+
+**2. Engagement Office (Chief Engagement Officer)**
+Improves public-facing digital services and stakeholder experience:
+
+* **Mass Digital Service**: Designs and governs Mass.gov content, user experience, and digital accessibility.
+* **Customer Engagement**: Manages agency relationships and the EOTSS Service Catalog.
+* **Accessibility & Equity**: Leads governance for digital access and equity.
+* **MassGIS**: Provides maps and geospatial data, supports statewide GIS standards.
+* **Municipal & School Technology**: Assists local governments and schools with IT support and grants.
+* **Interoperable Communications**: Oversees emergency communications infrastructure.
+
+**Governance Role**: Sets standards for accessibility and digital services. Partners with agencies to ensure citizen-facing tools meet usability and accessibility goals.
+
+---
+
+**3. Massachusetts Data Office (Chief Data Officer / Asst. Secretary for Data Services)**
+Leads enterprise data strategy, policy, and analytics:
+
+* **Data Standards & Policy**: Sets statewide data rules, facilitates agency alignment.
+* **Secure Data Sharing**: Manages frameworks like MOUs and DULAs for cross-agency data access.
+* **Open Data**: Operates the Massachusetts Data Hub to promote transparency.
+* **Analytics Support**: Provides cross-agency data analysis and dashboarding.
+* **Training & Literacy**: Offers training to improve statewide data capacity.
+
+**Governance Role**: Ensures data compliance, drives cross-agency analytics, and enforces secure data practices.
+
+---
+
+**4. Security & Operations (Chief Operating Officer)**
+Manages core IT infrastructure and security operations:
+
+* **End User Services**: Helpdesk, email, account management, and device support.
+* **Network & Telecom**: Maintains secure network infrastructure and voice systems.
+* **Hosting & Data Centers**: Supports on-prem and cloud platforms with operational standards.
+* **Cybersecurity Operations**: Runs SOC, incident response, and vulnerability scanning.
+* **ITSM**: Governs IT change management and service delivery processes.
+
+**Governance Role**: Ensures operational security, infrastructure compliance, and readiness for deployments. Works with CTO and CISO on implementation standards.
+
+---
+
+**5. Office of the Chief Technology Officer (CTO)**
+Drives innovation and technology architecture:
+
+* **Cloud Strategy**: Guides cloud adoption and shared infrastructure use.
+* **Enterprise Architecture**: Defines tech standards, integration patterns, and system interoperability.
+* **Enterprise Apps & Platforms**: Manages shared systems and integration services.
+
+**Governance Role**: Approves technical architecture and promotes cohesive enterprise technology planning.
+
+---
+
+**6. Strategy & Planning (Assistant Secretary)**
+Aligns IT projects with statewide goals and manages project portfolios:
+
+* **Strategic Planning**: Develops enterprise IT plans and ensures agency alignment.
+* **Portfolio & Capital Planning**: Reviews project proposals for funding and strategic fit.
+* **Business Architecture**: Evaluates project proposals for duplication and future-state alignment.
+* **Performance Tracking**: Reports progress on major initiatives and transformation efforts.
+
+**Governance Role**: Screens and prioritizes projects; supports funding, business case development, and alignment with enterprise goals.
+
+---
+
+**7. Legal and Privacy Office (General Counsel & Chief Privacy Officer)**
+Manages legal and privacy compliance:
+
+* **Legal Counsel**: Reviews contracts, licensing, records compliance, and regulations.
+* **Privacy Program**: Oversees policies, privacy impact assessments, and data protection practices.
+* **E-Discovery**: Provides legal data retrieval for litigation and audits.
+* **Emerging Tech Policy**: Drafts guidelines (e.g., for AI use) to ensure legal compliance.
+
+**Governance Role**: Ensures legal and privacy protections across projects; integrates with procurement, data, and security teams.
+
+---
+
+**8. Enterprise Risk Management (CISO & CRO)**
+Oversees cybersecurity policy and enterprise risk:
+
+* **Security Policies**: Maintains standards for system and data protection.
+* **Risk Assessments**: Runs risk evaluations for new and existing systems.
+* **Compliance & Audits**: Ensures ongoing adherence to controls and standards.
+* **Vendor Risk Management**: Reviews third-party products and services.
+* **Incident Response**: Coordinates breaches and security events with stakeholders.
+
+**Governance Role**: Enforces enterprise risk frameworks and security policy; collaborates with privacy, data, and legal teams for cohesive oversight.
+
+---
+
