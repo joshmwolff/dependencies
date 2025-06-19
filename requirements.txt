@@ -2,4 +2,3 @@ streamlit
 openai
 pandas
 docx
-base64
