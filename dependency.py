@@ -100,13 +100,15 @@ with tab1:
     if input_method == "Paste project plan text":
         st.error("**Warning:** Do not enter any sensitive or protected information. "
              "This application is for demonstration purposes only and has not been assessed by the AI COE. "
-             "It leverages the consumer OpenAI GPT-4 API and is not appropriate for sensitive data.")
+             "It leverages the consumer OpenAI GPT-4 API and is not appropriate for sensitive data."
+             "Please limit your input to 400 words for this small scale proof of concept")
         project_summary = st.text_area("Paste your project summary below:", height=300)
     
     elif input_method == "Upload a .doc or .docx file":
         st.error("**Warning:** Do not upload any sensitive or protected information. "
              "This application is for demonstration purposes only and has not been assessed by the AI COE. "
-             "It leverages the consumer OpenAI GPT-4 API and is not appropriate for sensitive data.")
+             "It leverages the consumer OpenAI GPT-4 API and is not appropriate for sensitive data."
+             "Please limit your input to 400 words for this small scale proof of concept")
         uploaded_file = st.file_uploader("Upload your project plan (.doc or .docx)", type=["doc", "docx"])
         if uploaded_file:
             doc = docx.Document(uploaded_file)
@@ -184,6 +186,9 @@ with tab1:
                     messages=messages,
                     temperature=0.7
                 )
+
+                #Store Session State
+                st.session_state.analysis_text = response.choices[0].message.content
     
                 # Once the response is received, complete the bar
                 progress.progress(100)
@@ -204,7 +209,16 @@ with tab1:
             
         else:
             st.error("No project plan text was provided.")
-            
+
+     if st.session_state.analysis_text:
+            st.markdown(st.session_state.analysis_text)
+            st.download_button(
+                label="📥 Download Analysis as Text",
+                data=st.session_state.analysis_text,
+                file_name="project_analysis.txt",
+                mime="text/plain"
+        )
+         
 with tab2:
     st.subheader("Example (fake) Project Plan – Climate Data Lake Project")
     st.markdown("""
