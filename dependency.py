@@ -210,7 +210,7 @@ with tab1:
         else:
             st.error("No project plan text was provided.")
 
-     if st.session_state.analysis_text:
+    if st.session_state.analysis_text:
             st.markdown(st.session_state.analysis_text)
             st.download_button(
                 label="📥 Download Analysis as Text",
