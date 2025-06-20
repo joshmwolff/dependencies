@@ -13,10 +13,15 @@ import docx
 import base64
 
 
-# Set your API key securely
+# Set API key securely
 openai.api_key = st.secrets["openai_api_key"]
+
+#Set up page and set session state to none
 st.set_page_config(page_title="EOTSS Project Collaboration Advisor (Proof of Concept)", layout="centered", page_icon="📘")
 
+if "analysis_text" not in st.session_state:
+    st.session_state.analysis_text = None
+    
 # Hide Streamlit UI chrome
 st.markdown("""
     <style>
@@ -210,7 +215,7 @@ with tab1:
         else:
             st.error("No project plan text was provided.")
 
-    if st.session_state.analysis_text:
+    if st.session_state.analysis_text is not None:
             st.markdown(st.session_state.analysis_text)
             st.download_button(
                 label="📥 Download Analysis as Text",
