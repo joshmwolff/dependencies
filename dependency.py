@@ -202,7 +202,7 @@ with tab1:
             
             # Show results
             st.success("✅ Analysis Complete")
-            st.markdown(response.choices[0].message.content)
+            #st.markdown(response.choices[0].message.content)
             
             # Download button for results
             st.download_button(
