@@ -204,13 +204,6 @@ with tab1:
             st.success("✅ Analysis Complete")
             #st.markdown(response.choices[0].message.content)
             
-            # Download button for results
-            st.download_button(
-                label="📥 Download Analysis as Text",
-                data=response.choices[0].message.content,
-                file_name="project_analysis.txt",
-                mime="text/plain"
-            )
             
         else:
             st.error("No project plan text was provided.")
@@ -218,7 +211,7 @@ with tab1:
     if st.session_state.analysis_text is not None:
             st.markdown(st.session_state.analysis_text)
             st.download_button(
-                label="📥 Download Analysis as Text",
+                label="Download Analysis as Text",
                 data=st.session_state.analysis_text,
                 file_name="project_analysis.txt",
                 mime="text/plain"
