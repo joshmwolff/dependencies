@@ -315,7 +315,7 @@ This is an early prototype. It's not connected to the secure EOTSS environment, 
 
 -Don’t upload sensitive project plans
 
--The analysis is based only on public info from mass.gov, not internal documents like architecture review board materials
+-The analysis is based only on public info from mass.gov, not internal documents like business plans or architecture review board submissions
 
 Still, it can give surprisingly helpful advice—and once it's connected to richer, internal sources, it should get even smarter. 
 
