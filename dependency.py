@@ -270,35 +270,35 @@ Close collaboration will be maintained with data owners at participating agencie
 | 10          | Launch & handoff – Launch of public portal, documentation delivery, and transition to operations | Week of 8/19   |
 """)
 
-with st.expander("See explanation"):
-    st.write("""
-Inter-team dependencies and EOTSS Groups
-
-Data Office (Chief Data Officer / Asst. Secretary for Data Services): According to the Governance Reference Component 12, the Data Office is responsible for managing data privacy, quality, metadata, and governance in support of enterprise analytics. This project's aim to establish classification and metadata standards, enable governance workflows, and provide secure and centralized access to climate-relevant datasets will require the Data Office's expertise. They should be involved from the beginning of the project to help set standards and ensure data compliance. The best way to engage the Data Office is to arrange regular coordination meetings.
-
-MassGIS: The Climate Data Lake project will likely involve the use of spatial data since climate data often has geographic components. As per Governance Reference Component 15, MassGIS standardizes and manages spatial data classifications, analysis, and integration, which will be crucial for this project. MassGIS should be involved during the data ingestion and classification phase. The best way to engage MassGIS is through direct communication channels to discuss data requirements and integration.
-
-Security & Operations (Chief Operating Officer): Given the project involves setting up infrastructure in a cloud environment and ensuring system security, the Security & Operations team will be crucial. They should be engaged during the infrastructure design and setup phase. The best way to engage the Security & Operations team is via project planning meetings and system design reviews.
-
-Legal and Privacy Office (General Counsel & Chief Privacy Officer): As the project involves public-facing datasets, the privacy risk assessments (as per Governance Reference Component 18) and legal aspects will need review from the Legal and Privacy Office. They should be involved when preparing to make the datasets public-facing. The best way to engage the Legal and Privacy Office is by submitting data usage and privacy assessments for their review.
-
-Engagement Office (Chief Engagement Officer): The creation of a public-facing mass.gov data portal falls under the sphere of the Engagement Office, notably Mass Digital Service. They should be involved when designing the public-facing portal. The best way to engage the Engagement Office is through regular project update meetings and design reviews.
-
-Project Milestones and Team Dependencies
-
-Centralized Climate Data Lake operational: Data Office, Security & Operations
-Datasets from at least three agencies ingested and classified: Data Office, MassGIS
-Public-facing mass.gov data portal live: Engagement Office, Legal and Privacy Office
-Privacy risk assessments conducted: Legal and Privacy Office
-Governance and access workflows in place: Data Office
-Accessibility Policy Alignment
-
-The project plan mentions a public-facing mass.gov data portal, which will be subject to the Enterprise Information Technology Accessibility Policy. It is crucial to ensure that the website complies with WCAG 2.1 Level AA and Section 508 accessibility standards. The project plan does not specifically mention compliance with these standards or accessibility integration during the design phase, which may be a potential misalignment with the policy. It is recommended to involve the Accessibility Office from the Engagement Office to ensure the project aligns with accessibility guidelines.
-
-Related Projects
-
-Coming Soon
-""")
+    with st.expander("See example output"):
+        st.write("""
+    Inter-team dependencies and EOTSS Groups
+    
+    Data Office (Chief Data Officer / Asst. Secretary for Data Services): According to the Governance Reference Component 12, the Data Office is responsible for managing data privacy, quality, metadata, and governance in support of enterprise analytics. This project's aim to establish classification and metadata standards, enable governance workflows, and provide secure and centralized access to climate-relevant datasets will require the Data Office's expertise. They should be involved from the beginning of the project to help set standards and ensure data compliance. The best way to engage the Data Office is to arrange regular coordination meetings.
+    
+    MassGIS: The Climate Data Lake project will likely involve the use of spatial data since climate data often has geographic components. As per Governance Reference Component 15, MassGIS standardizes and manages spatial data classifications, analysis, and integration, which will be crucial for this project. MassGIS should be involved during the data ingestion and classification phase. The best way to engage MassGIS is through direct communication channels to discuss data requirements and integration.
+    
+    Security & Operations (Chief Operating Officer): Given the project involves setting up infrastructure in a cloud environment and ensuring system security, the Security & Operations team will be crucial. They should be engaged during the infrastructure design and setup phase. The best way to engage the Security & Operations team is via project planning meetings and system design reviews.
+    
+    Legal and Privacy Office (General Counsel & Chief Privacy Officer): As the project involves public-facing datasets, the privacy risk assessments (as per Governance Reference Component 18) and legal aspects will need review from the Legal and Privacy Office. They should be involved when preparing to make the datasets public-facing. The best way to engage the Legal and Privacy Office is by submitting data usage and privacy assessments for their review.
+    
+    Engagement Office (Chief Engagement Officer): The creation of a public-facing mass.gov data portal falls under the sphere of the Engagement Office, notably Mass Digital Service. They should be involved when designing the public-facing portal. The best way to engage the Engagement Office is through regular project update meetings and design reviews.
+    
+    Project Milestones and Team Dependencies
+    
+    Centralized Climate Data Lake operational: Data Office, Security & Operations
+    Datasets from at least three agencies ingested and classified: Data Office, MassGIS
+    Public-facing mass.gov data portal live: Engagement Office, Legal and Privacy Office
+    Privacy risk assessments conducted: Legal and Privacy Office
+    Governance and access workflows in place: Data Office
+    Accessibility Policy Alignment
+    
+    The project plan mentions a public-facing mass.gov data portal, which will be subject to the Enterprise Information Technology Accessibility Policy. It is crucial to ensure that the website complies with WCAG 2.1 Level AA and Section 508 accessibility standards. The project plan does not specifically mention compliance with these standards or accessibility integration during the design phase, which may be a potential misalignment with the policy. It is recommended to involve the Accessibility Office from the Engagement Office to ensure the project aligns with accessibility guidelines.
+    
+    Related Projects
+    
+    Coming Soon
+    """)
 
 with tab3:
     st.subheader("Learn More")
