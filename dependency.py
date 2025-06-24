@@ -287,6 +287,26 @@ Close collaboration will be maintained with data owners at participating agencie
 | 9           | Stakeholder UAT – Participating agency staff and external researchers conduct user testing | Week of 8/12   |
 | 10          | Launch & handoff – Launch of public portal, documentation delivery, and transition to operations | Week of 8/19   |
 """)
+
+with tab3:
+    st.subheader("Learn More")
+    st.markdown("""
+        # What This Tool Does
+
+This app is designed to help you figure out which EOTSS teams you should be working with to get your project done. It reads your project plan and suggests which EOTSS teams you should collaborate with. 
+
+In the future, it could compare project plans against documented information about what different EOTSS departments do: things like business plans, capital plans, and enterprise standards. The goal is to give you a clearer sense of who’s already working in your space, who owns what, and where there might be overlap or collaboration opportunities.
+
+You’ll also see suggestions for projects that are similar or complementary to yours, helping you avoid duplication and spot potential partnerships.
+
+This is an early prototype. It's not connected to the secure EOTSS environment, so it doesn’t use any internal data. That means:
+
+Don’t upload sensitive project plans
+
+The analysis is based only on public info from mass.gov, not internal documents like architecture review board materials
+
+Still
+""")
     #try:
     #    with open("Example Project Plan - Climate Data Lake Project.pdf", "rb") as f:
     #        pdf_data = f.read()
