@@ -43,7 +43,7 @@ tab1, tab2, tab3 = st.tabs(["Analyze Dependencies", "View Demo Plan", "Learn Mor
 
 
 with tab1:
-    st.write("Upload a project plan (e.g., summary as text) and get advice on inter-team dependencies based on embedded EOTSS group roles and standards.")
+    st.write("Upload a project plan and get advice on inter-team dependencies based on embedded EOTSS group roles and standards.")
     
     # --- EOTSS GROUP DESCRIPTIONS (embedded for Option 3) ---
     group_roles = """
