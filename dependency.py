@@ -57,7 +57,7 @@ The analysis is based only on public info from mass.gov, not internal documents 
 Still, it can give surprisingly helpful advice—and once it's connected to richer, internal sources, it should get even smarter. Each run takes about 4 minutes and costs around 17 cents.
     ''')
 
-tab1, tab2 = st.tabs(["🔍 Analyze Dependencies", "📄 View Demo Plan"])
+tab1, tab2, tab3 = st.tabs(["Analyze Dependencies", "View Demo Plan", "Learn More"])
 
 
 with tab1:
