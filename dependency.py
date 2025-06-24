@@ -39,6 +39,24 @@ st.markdown("<h2 style='text-align: center;'>EOTSS Project Collaboration Advisor
 st.markdown("<h3 style='text-align: center;'>Proof of Concept</h3", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: gray;'>Analyze inter-team dependencies in one click</p>", unsafe_allow_html=True)
 
+with st.expander("Learn More"):
+    st.write('''
+        What This Tool Does
+This app is designed to help you figure out which EOTSS teams you should be working with to get your project done. It reads your project plan and suggests which EOTSS teams you should collaborate with. 
+
+In the future, it could compare project plans against documented information about what different EOTSS departments do: things like business plans, capital plans, and enterprise standards. The goal is to give you a clearer sense of who’s already working in your space, who owns what, and where there might be overlap or collaboration opportunities.
+
+You’ll also see suggestions for projects that are similar or complementary to yours, helping you avoid duplication and spot potential partnerships.
+
+This is an early prototype. It's not connected to the secure EOTSS environment, so it doesn’t use any internal data. That means:
+
+Don’t upload sensitive project plans
+
+The analysis is based only on public info from mass.gov, not internal documents like architecture review board materials
+
+Still, it can give surprisingly helpful advice—and once it's connected to richer, internal sources, it should get even smarter. Each run takes about 4 minutes and costs around 17 cents.
+    ''')
+
 tab1, tab2 = st.tabs(["🔍 Analyze Dependencies", "📄 View Demo Plan"])
 
 
